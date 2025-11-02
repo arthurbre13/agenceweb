@@ -10,64 +10,64 @@ const Portfolio = () => {
 
   const categories = [
     { id: 'all', label: 'Tous' },
-    { id: 'web', label: 'Sites Web' },
+    { id: 'web', label: 'Applications Web' },
     { id: 'ecommerce', label: 'E-commerce' },
-    { id: 'app', label: 'Applications' },
+    { id: 'app', label: 'Applications Mobiles' },
   ]
 
   const projects = [
     {
       id: 1,
-      title: 'Boutique Fashion Luxe',
+      title: 'Plateforme E-commerce B2B',
       category: 'ecommerce',
-      description: 'Plateforme e-commerce haut de gamme avec paiement s?curis?',
+      description: 'Marketplace B2B avec catalogue de 50K+ produits, gestion des prix dynamiques et int?gration ERP',
       image: 'https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=800&q=80',
-      tags: ['Next.js', 'Stripe', 'Tailwind'],
+      tags: ['Next.js', 'PostgreSQL', 'Redis'],
       link: '#',
     },
     {
       id: 2,
-      title: 'Application Finance Pro',
+      title: 'Plateforme SaaS Financi?re',
       category: 'app',
-      description: 'Application mobile de gestion financi?re personnelle',
+      description: 'Solution de gestion financi?re multi-entit?s avec tableaux de bord personnalisables et API bancaire',
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
-      tags: ['React Native', 'Node.js', 'MongoDB'],
+      tags: ['React', 'Node.js', 'MongoDB'],
       link: '#',
     },
     {
       id: 3,
-      title: 'Restaurant Le Gourmet',
+      title: 'Portail Client Entreprise',
       category: 'web',
-      description: 'Site vitrine avec syst?me de r?servation en ligne',
+      description: 'Espace client s?curis? avec gestion documentaire, facturation et suivi de projets en temps r?el',
       image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80',
-      tags: ['React', 'Firebase', 'CSS'],
-      link: '#',
-    },
-    {
-      id: 4,
-      title: 'Marketplace Artisans',
-      category: 'ecommerce',
-      description: 'Marketplace connectant artisans et clients',
-      image: 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800&q=80',
       tags: ['Vue.js', 'Laravel', 'MySQL'],
       link: '#',
     },
     {
-      id: 5,
-      title: 'Portfolio Architecte',
+      id: 4,
+      title: 'Syst?me de Gestion d&apos;Inventaire',
       category: 'web',
-      description: 'Portfolio ?l?gant avec galerie interactive',
+      description: 'Application web de gestion de stock multi-sites avec tra?abilit? compl?te et analytics avanc?s',
+      image: 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800&q=80',
+      tags: ['Angular', 'Django', 'PostgreSQL'],
+      link: '#',
+    },
+    {
+      id: 5,
+      title: 'Plateforme de R?servation B2B',
+      category: 'web',
+      description: 'Syst?me de r?servation pour professionnels avec gestion des capacit?s et facturation automatis?e',
       image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80',
-      tags: ['Next.js', 'Framer Motion', 'Sanity'],
+      tags: ['Next.js', 'Prisma', 'Stripe'],
       link: '#',
     },
     {
       id: 6,
-      title: 'App Fitness Tracker',
+      title: 'Application Mobile RH',
       category: 'app',
-      description: 'Application de suivi d\'activit? physique et nutrition',
+      description: 'Solution mobile de gestion des temps, absences et notes de frais avec validation hi?rarchique',
       image: 'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&q=80',
-      tags: ['Flutter', 'Firebase', 'Charts'],
+      tags: ['React Native', 'Firebase', 'Cloud Functions'],
       link: '#',
     },
   ]
@@ -91,7 +91,7 @@ const Portfolio = () => {
             Nos <span className="gradient-text">R?alisations</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            D?couvrez quelques-uns de nos projets qui ont transform? des id?es en succ?s digitaux
+            Projets men?s ? bien pour des entreprises de diff?rents secteurs
           </p>
         </motion.div>
 

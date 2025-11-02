@@ -17,13 +17,13 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'DigiCraft Agency - Agence Web & D?veloppement Digital',
-  description: 'DigiCraft Agency, votre partenaire pour la cr?ation de sites web, applications mobiles et solutions digitales innovantes. Expertise en d?veloppement web, UX/UI design et SEO.',
-  keywords: 'agence web, d?veloppement web, cr?ation site internet, application mobile, UX/UI design, SEO, agence digitale',
+  title: 'DigiCraft Agency - Solutions Web pour Entreprises',
+  description: 'Partenaire technologique pour votre transformation digitale. D?veloppement d&apos;applications web sur-mesure, conseil strat?gique et expertise technique au service de votre croissance.',
+  keywords: 'd?veloppement web entreprise, applications web sur-mesure, transformation digitale, conseil digital, agence web B2B, d?veloppement React Next.js',
   authors: [{ name: 'DigiCraft Agency' }],
   openGraph: {
-    title: 'DigiCraft Agency - Agence Web & D?veloppement Digital',
-    description: 'Votre partenaire pour la cr?ation de sites web et solutions digitales innovantes',
+    title: 'DigiCraft Agency - Solutions Web pour Entreprises',
+    description: 'Partenaire technologique pour votre transformation digitale',
     type: 'website',
     locale: 'fr_FR',
   },
