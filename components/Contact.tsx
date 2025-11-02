@@ -237,7 +237,7 @@ const Contact = () => {
 
             {/* Business Hours */}
             <div className="bg-gradient-to-br from-primary-600 to-secondary-600 p-6 rounded-xl text-white">
-              <h3 className="font-bold text-xl mb-4">Horaires d'ouverture</h3>
+              <h3 className="font-bold text-xl mb-4">Horaires d&apos;ouverture</h3>
               <div className="space-y-2 text-white/90">
                 <p>Lundi - Vendredi : 9h00 - 18h00</p>
                 <p>Samedi : 10h00 - 14h00</p>

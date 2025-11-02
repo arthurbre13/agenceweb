@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { FaCalendar, FaUser, FaArrowRight } from 'react-icons/fa'
+import Image from 'next/image'
 
 const Blog = () => {
   const articles = [
@@ -66,12 +67,13 @@ const Blog = () => {
             >
               {/* Image */}
               <div className="relative h-56 overflow-hidden">
-                <img
+                <Image
                   src={article.image}
                   alt={article.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div className="absolute top-4 left-4">
+                <div className="absolute top-4 left-4 z-10">
                   <span className="bg-primary-600 text-white px-4 py-1 rounded-full text-sm font-semibold">
                     {article.category}
                   </span>

@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { FaHeart, FaLightbulb, FaUsers, FaAward } from 'react-icons/fa'
+import Image from 'next/image'
 
 const About = () => {
   const values = [
@@ -91,7 +92,7 @@ const About = () => {
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
               Depuis 5 ans, nous accompagnons des entreprises de toutes tailles dans leur transformation digitale, 
-              en combinant expertise technique, cr?ativit? d?bordante et approche centr?e sur l'utilisateur.
+              en combinant expertise technique, cr?ativit? d?bordante et approche centr?e sur l&apos;utilisateur.
             </p>
           </div>
         </motion.div>
@@ -152,11 +153,12 @@ const About = () => {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="group"
               >
-                <div className="relative overflow-hidden rounded-2xl mb-4">
-                  <img
+                <div className="relative overflow-hidden rounded-2xl mb-4 h-80">
+                  <Image
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>

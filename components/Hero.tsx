@@ -31,7 +31,7 @@ const Hero = () => {
             className="inline-flex items-center space-x-2 bg-white/20 backdrop-blur-sm px-6 py-2 rounded-full text-white"
           >
             <FaRocket className="text-accent-400" />
-            <span className="font-semibold">L'excellence digitale ? votre service</span>
+            <span className="font-semibold">L&apos;excellence digitale ? votre service</span>
           </motion.div>
 
           {/* Main heading */}
