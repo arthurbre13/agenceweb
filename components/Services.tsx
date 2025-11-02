@@ -8,49 +8,49 @@ const Services = () => {
     {
       icon: FaCode,
       title: 'D?veloppement Web',
-      description: 'Sites web performants et ?volutifs avec les technologies les plus r?centes (React, Next.js, Node.js)',
+      description: 'Applications web performantes et scalables construites avec React, Next.js et Node.js pour r?pondre aux exigences m?tier',
       color: 'from-blue-500 to-cyan-500',
     },
     {
       icon: FaPalette,
-      title: 'UX/UI Design',
-      description: 'Interfaces intuitives et designs modernes qui captivent vos utilisateurs et renforcent votre marque',
+      title: 'Design d&apos;Interface',
+      description: 'Conception d&apos;interfaces professionnelles optimis?es pour la conversion et l&apos;exp?rience utilisateur',
       color: 'from-purple-500 to-pink-500',
     },
     {
       icon: FaSearch,
-      title: 'Optimisation SEO',
-      description: 'Strat?gies SEO avanc?es pour am?liorer votre visibilit? et attirer un trafic qualifi?',
+      title: 'R?f?rencement SEO',
+      description: 'Strat?gies de r?f?rencement naturel pour augmenter votre visibilit? et g?n?rer des leads qualifi?s',
       color: 'from-green-500 to-emerald-500',
     },
     {
       icon: FaProjectDiagram,
       title: 'Gestion de Projets',
-      description: 'Accompagnement complet avec m?thodologie agile pour garantir le succ?s de votre projet',
+      description: 'Pilotage de projet en m?thodologie agile avec suivi transparent et livraisons it?ratives',
       color: 'from-orange-500 to-red-500',
     },
     {
       icon: FaMobile,
       title: 'Applications Mobiles',
-      description: 'D?veloppement d\'applications mobiles natives et hybrides pour iOS et Android',
+      description: 'D?veloppement d&apos;applications mobiles natives et hybrides pour ?tendre votre pr?sence digitale',
       color: 'from-indigo-500 to-blue-500',
     },
     {
       icon: FaShoppingCart,
-      title: 'E-commerce',
-      description: 'Solutions e-commerce compl?tes pour maximiser vos ventes en ligne et fid?liser vos clients',
+      title: 'Plateformes E-commerce',
+      description: 'Solutions e-commerce sur-mesure avec int?gration ERP, CRM et outils de gestion avanc?s',
       color: 'from-yellow-500 to-orange-500',
     },
     {
       icon: FaRocket,
-      title: 'Consulting Digital',
-      description: 'Conseils strat?giques pour acc?l?rer votre transformation digitale et atteindre vos objectifs',
+      title: 'Conseil Strat?gique',
+      description: 'Accompagnement dans votre transformation digitale avec audit, recommandations et feuille de route',
       color: 'from-teal-500 to-green-500',
     },
     {
       icon: FaChartLine,
-      title: 'Analyse & Performance',
-      description: 'Optimisation continue de vos performances avec des outils d\'analyse avanc?s',
+      title: 'Analytics & Performance',
+      description: 'Mise en place d&apos;outils de mesure et d&apos;optimisation pour maximiser votre ROI',
       color: 'from-rose-500 to-pink-500',
     },
   ]
@@ -67,10 +67,10 @@ const Services = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-display font-bold text-gray-900 mb-4">
-            Nos <span className="gradient-text">Services</span>
+            Nos <span className="gradient-text">Expertises</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Des solutions digitales compl?tes pour propulser votre entreprise vers le succ?s
+            Solutions techniques ?prouv?es pour acc?l?rer la croissance de votre entreprise
           </p>
         </motion.div>
 

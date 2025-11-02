@@ -1,16 +1,18 @@
 import type { Metadata } from 'next'
-import { Inter, Montserrat } from 'next/font/google'
+import { IBM_Plex_Sans, Poppins } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ 
+const ibmPlexSans = IBM_Plex_Sans({ 
   subsets: ['latin'],
-  variable: '--font-inter',
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-ibm-plex',
   display: 'swap',
 })
 
-const montserrat = Montserrat({ 
+const poppins = Poppins({ 
   subsets: ['latin'],
-  variable: '--font-montserrat',
+  weight: ['400', '500', '600', '700', '800'],
+  variable: '--font-poppins',
   display: 'swap',
 })
 
@@ -33,9 +35,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="fr" className={`${inter.variable} ${montserrat.variable}`}>
+    <html lang="fr" className={`${ibmPlexSans.variable} ${poppins.variable}`}>
       <head>
         <link rel="icon" href="/favicon.ico" />
+        <meta charSet="utf-8" />
       </head>
       <body className="font-sans antialiased">{children}</body>
     </html>

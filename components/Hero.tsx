@@ -31,7 +31,7 @@ const Hero = () => {
             className="inline-flex items-center space-x-2 bg-white/20 backdrop-blur-sm px-6 py-2 rounded-full text-white"
           >
             <FaRocket className="text-accent-400" />
-            <span className="font-semibold">L&apos;excellence digitale ? votre service</span>
+            <span className="font-semibold">Solutions digitales d&apos;excellence</span>
           </motion.div>
 
           {/* Main heading */}
@@ -41,9 +41,9 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-5xl md:text-7xl lg:text-8xl font-display font-bold text-white leading-tight"
           >
-            Cr?ons ensemble
+            Solutions digitales
             <br />
-            <span className="text-accent-300">votre avenir digital</span>
+            <span className="text-accent-300">pour entreprises ambitieuses</span>
           </motion.h1>
 
           {/* Subtitle */}
@@ -53,9 +53,9 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed"
           >
-            Transformez vos id?es en exp?riences digitales exceptionnelles.
+            Acc?l?rez votre transformation digitale avec des solutions web performantes.
             <br className="hidden md:block" />
-            D?veloppement web sur-mesure, design innovant et strat?gie performante.
+            D?veloppement sur-mesure, architecture scalable et accompagnement strat?gique.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -69,14 +69,14 @@ const Hero = () => {
               href="#contact"
               className="group bg-white text-primary-700 px-10 py-4 rounded-full font-bold text-lg transition-all duration-300 hover:shadow-2xl hover:scale-105 flex items-center space-x-2"
             >
-              <span>D?marrer mon projet</span>
+              <span>Discuter de votre projet</span>
               <FaArrowRight className="group-hover:translate-x-2 transition-transform" />
             </a>
             <a
               href="#realisations"
               className="bg-white/10 backdrop-blur-sm text-white px-10 py-4 rounded-full font-bold text-lg border-2 border-white/30 transition-all duration-300 hover:bg-white/20 hover:scale-105"
             >
-              Voir nos r?alisations
+              D?couvrir nos solutions
             </a>
           </motion.div>
 
@@ -88,9 +88,9 @@ const Hero = () => {
             className="grid grid-cols-3 gap-8 max-w-3xl mx-auto pt-16"
           >
             {[
-              { number: '150+', label: 'Projets r?alis?s' },
-              { number: '98%', label: 'Clients satisfaits' },
-              { number: '5 ans', label: 'D\'expertise' },
+              { number: '150+', label: 'Projets livr?s' },
+              { number: '98%', label: 'Taux de satisfaction' },
+              { number: '5 ans', label: 'D&apos;expertise' },
             ].map((stat, index) => (
               <div key={index} className="text-white">
                 <div className="text-4xl md:text-5xl font-bold font-display mb-2">
